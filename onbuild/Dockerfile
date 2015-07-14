@@ -1,4 +1,4 @@
-FROM danieldent/meteor:latest
+FROM furion/docker-meteor:latest
 MAINTAINER Daniel Dent (https://www.danieldent.com/)
 ONBUILD COPY . /opt/src
 ONBUILD WORKDIR /opt/src
