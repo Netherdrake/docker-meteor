@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:0.10
 MAINTAINER Daniel Dent (https://www.danieldent.com/)
 
 ENV METEOR_VERSION latest
